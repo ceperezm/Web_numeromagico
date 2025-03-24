@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero magico</title>
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <script src="js/funcion.js"> </script>
+</head>
+
+<body>
+    <header>
+        <div class="cinta">
+            <span>Número mágico</span>
+        </div>
+    </header>
+
+    <section>
+        <div class="card">
+            <div class="info">
+                <h1 id="titulo">Ingresa tu número</h2>
+                    <h3>Intentos</h3>
+                        <h3 id="intentos">0</h3>
+                            <h3 id="vector"></h3>
+                                <h1 id="numero">?</h1>
+            </div>
+        </div>
+        <div id="campo">
+            <input type="number" id="input" placeholder="Número">
+        </div>
+
+        <div>
+            <!-- Llama a la función del js al hacer click -->
+            <button class="btn-intentar" onclick="guardarnumero()">Intentar</button>
+            <button class="btn-intentar" onclick="reiniciar()">Reiniciar</button>
+        </div>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
